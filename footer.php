@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-3 footer_logo">
-                <a href="index-2.php"><img src="assets/images/footer_logo.png" alt=""></a>
+                <a href="index.php"><img src="assets/images/footer_logo.png" alt=""></a>
                 <p>
                     Lorem ipsum dolor amet natum latine copiosa at quo, suas labore saperet has there any quote for write lorem percit latineu suas dummy.
                 </p>
@@ -65,7 +65,8 @@
                 </p>
                 <form action="#">
                     <input type="text" placeholder="Enter your e-mail">
-                    <button class="btn-text">
+                    
+                    <button class="btn btn-success">
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </button>
                 </form>
@@ -78,7 +79,7 @@
         <div class="container">
             <div class="bor_top clearfix">
                 <p>
-                    <a href="https://www.templateshub.net" target="_blank">Templates Hub</a>
+                    Copy Rights &nbsp;<i class="fa fa-copyright"></i> : All Rights are reserved by &nbsp;<a href="http://www.bluehat-techno.com/" target="_blank">BlurHat-Techno</a>
                 </p>
 
             </div>
