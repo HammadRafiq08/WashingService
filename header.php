@@ -157,7 +157,7 @@
                                 while($data = mysqli_fetch_array($getImg)) {
                                 ?>
                                 <li>
-                                    <a href="#"><?php echo $data['name']?></a>
+                                    <a href="<?php echo $data['name']?>.php"><?php echo $data['name']?></a>
                                 </li>
                                 <?php }?>
                             </ul>
