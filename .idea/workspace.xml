@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36945765-a14c-4545-a24d-8e0f93440dbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Carpet Cleaning.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/End of Lease Cleaning.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kitchen Cleaning.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ONE-OFF CLEANS.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Office Cleaning.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring Cleaning.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleaner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frenchise.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/dbconnect.php" afterPath="$PROJECT_DIR$/admin/dbconnect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <ignored path="cleaning.iws" />
@@ -35,10 +30,10 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31039324">
-              <caret line="159" column="75" selection-start-line="159" selection-start-column="75" selection-end-line="159" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="15" />
               <folding>
-                <marker date="1564309483891" expanded="true" signature="6909:6935" placeholder="Select * fro..servicecateg..." />
+                <marker date="1564311501675" expanded="true" signature="6909:6935" placeholder="Select * fro..servicecateg..." />
               </folding>
             </state>
           </provider>
@@ -78,13 +73,15 @@
         <option value="$PROJECT_DIR$/services-details.php" />
         <option value="$PROJECT_DIR$/team.php" />
         <option value="$PROJECT_DIR$/admin/dbconnect.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/ONE-OFF CLEANS.php" />
         <option value="$PROJECT_DIR$/Carpet Cleaning.php" />
         <option value="$PROJECT_DIR$/End of Lease Cleaning.php" />
         <option value="$PROJECT_DIR$/Kitchen Cleaning.php" />
         <option value="$PROJECT_DIR$/Office Cleaning.php" />
         <option value="$PROJECT_DIR$/Spring Cleaning.php" />
+        <option value="$PROJECT_DIR$/cleaner.php" />
+        <option value="$PROJECT_DIR$/frenchise.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -347,22 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services-details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-115.07692">
-          <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Carpet Cleaning.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.076923">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/End of Lease Cleaning.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.076923">
@@ -411,12 +392,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-115.07692">
+          <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Carpet Cleaning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4775281">
+          <caret line="20" column="81" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleaner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.076923">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frenchise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0744382">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31039324">
-          <caret line="159" column="75" selection-start-line="159" selection-start-column="75" selection-end-line="159" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="15" />
           <folding>
-            <marker date="1564309483891" expanded="true" signature="6909:6935" placeholder="Select * fro..servicecateg..." />
+            <marker date="1564311501675" expanded="true" signature="6909:6935" placeholder="Select * fro..servicecateg..." />
           </folding>
         </state>
       </provider>

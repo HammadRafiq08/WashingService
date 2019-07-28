@@ -180,11 +180,11 @@
                             <ul class="dropdown-menu">
 
                                 <li>
-                                    <a href="#">Frenchise Form</a>
+                                    <a href="frenchise.php">Frenchise Form</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Cleaner Form</a>
+                                    <a href="cleaner.php">Cleaner Form</a>
                                 </li>
                             </ul>
                         </li>
