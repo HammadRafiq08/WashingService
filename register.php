@@ -69,7 +69,7 @@
 									</form>
 								</div>
 								<div class="card-action no-border text-right">
-									<a href="#/page/signin">Login</a><a href="#/" class="color-primary">Sign Up</a>
+									<a href="login.php">Login</a><a href="#/" class="color-primary">Sign Up</a>
 								</div>
 							</div>
 						</div>
