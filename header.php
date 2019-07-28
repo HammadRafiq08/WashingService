@@ -1,3 +1,5 @@
+<?php include 'admin/dbconnect.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -78,7 +80,7 @@
             <div class="row">
                 <div class="col-lg-4 logo col-md-12 d-flex align-items-center">
 
-                    <a href="index-2.php"> <img src="assets/images/logo.png" alt="Logo"> </a>
+                    <a href="index.php"> <img src="assets/images/logo.png" alt="Logo"> </a>
 
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle hidden-lg-up" data-toggle="collapse" data-target="#navbar-menu">
@@ -128,43 +130,20 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav mobile-menu d-flex justify-content-between">
                         <li>
-                            <a href="#!">Home</a>
-                            <span class="submenu-button"></span>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="index-2.php">Home Page 1</a>
-                                </li>
-
-                                <li>
-                                    <a href="index1.php">Home Page 2</a>
-                                </li>
-
-                            </ul>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
                             <a href="#!">About us</a>
                             <span class="submenu-button"></span>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="about.php">About</a>
+                                    <a href="team.php">About our Team</a>
                                 </li>
                                 <li>
-                                    <a href="about2.php">About 2</a>
-                                </li>
-                                <li>
-                                    <a href="about3.php">About 3</a>
-                                </li>
-                                <li>
-                                    <a href="history.php">history</a>
+                                    <a href="about.php">About Company</a>
                                 </li>
                                 <li>
                                     <a href="career.php">career</a>
-                                </li>
-                                <li>
-                                    <a href="partnerships.php">partnerships</a>
-                                </li>
-                                <li>
-                                    <a href="leadership.php">leadership</a>
                                 </li>
                             </ul>
                         </li>
@@ -172,30 +151,17 @@
                             <a href="javascript:avoid(0);">Services</a>
                             <span class="submenu-button"></span>
                             <ul class="dropdown-menu">
+                                <?php
+                                $query = "Select * from servicecateg ";
+                                $getImg = $con->query($query);
+                                while($data = mysqli_fetch_array($getImg)) {
+                                ?>
                                 <li>
-                                    <a href="services.php">All Services</a>
+                                    <a href="#"><?php echo $data['name']?></a>
                                 </li>
-                                <li>
-                                    <a href="services-details.php">Services Details</a>
-                                </li>
-
+                                <?php }?>
                             </ul>
                         </li>
-                        <li>
-                            <a href="javascript:avoid(0);">Project</a>
-                            <span class="submenu-button"></span>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="project.php">project</a>
-                                </li>
-
-                                <li>
-                                    <a href="project-details.php">Projec Details</a>
-                                </li>
-
-                            </ul>
-                        </li>
-
                         <li>
                             <a href="javascript:avoid(0);">blog</a>
                             <span class="submenu-button"></span>
@@ -208,20 +174,26 @@
                                 </li>
                             </ul>
                         </li>
-
                         <li>
-                            <a href="javascript:avoid(0);">pages</a>
+                            <a href="javascript:avoid(0);">Join Our Team</a>
                             <span class="submenu-button"></span>
                             <ul class="dropdown-menu">
+
                                 <li>
-                                    <a href="portfolio-masonry.php">Gallery Masonry</a>
+                                    <a href="#">Frenchise Form</a>
                                 </li>
+
                                 <li>
-                                    <a href="portfolio-grid.php">Gallery Grid</a>
+                                    <a href="#">Cleaner Form</a>
                                 </li>
-                                <li>
-                                    <a href="team.php">Team</a>
-                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript:avoid(0);">Customers</a>
+                            <span class="submenu-button"></span>
+                            <ul class="dropdown-menu">
+
 
                                 <li>
                                     <a href="pricing.php">pricing</a>
@@ -235,51 +207,10 @@
                                 <li>
                                     <a href="login.php">login</a>
                                 </li>
-                                <li>
-                                    <a href="testimonial.php">Testimonials</a>
-                                </li>
-                                <li>
-                                    <a href="404.php">404 Error</a>
-                                </li>
-                                <li>
-                                    <a href="blank.php">blank</a>
-                                </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#!">Shop</a>
-                            <span class="submenu-button"></span>
-                            <!-- Nav Dropdown -->
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="shop.php">Shop</a>
-                                </li>
-                                <li>
-                                    <a href="shop-sidebar.php">shop sidebar</a>
-                                </li>
-                                <li>
-                                    <a href="shop-details.php">shop details</a>
-                                </li>
-                                <li>
-                                    <a href="cart.php">cart</a>
-                                </li>
-                                <li>
-                                    <a href="checkout.php">Checkout</a>
-                                </li>
-                            </ul>
-                            <!-- End Nav Dropdown -->
-                        </li>
-                        <li>
-                            <a href="#!">Contact us</a>
-                            <span class="submenu-button"></span>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="contact.php">contact</a>
-                                </li>
-                                <li>
-                                    <a href="contact1.php">contact 2</a>
-                                </li>
-                            </ul>
+                            <a href="contact.php">Contact us</a>
                         </li>
                     </ul>
                 </div>
